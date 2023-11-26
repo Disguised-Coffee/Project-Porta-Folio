@@ -9,4 +9,479 @@
 /* Adjust the spacing of your page. */
 
 /* Adjust the positioning of your page.  */
+.about-me {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-me .div {
+  background-color: #ffffff;
+  width: 100%;
+  height: 1786px;
+  position: relative;
+}
+
+.about-me .overlap {
+  width: 100%;
+  height: 1476px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.about-me .element {
+  position: absolute;
+  width: 1440px;
+  height: 639px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.about-me .rectangle {
+  width: 1440px;
+  height: 1101px;
+  top: 375px;
+  background-color: #f2f2f2;
+  position: absolute;
+  left: 0;
+}
+
+.about-me .header {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  left: 0;
+  background-color: #467aff;
+  box-shadow: 0px 4px 0px #27448d;
+  z-index: 1; /* bc header goes under each div if not*/
+}
+
+.about-me .disguised-coffee {
+  position: absolute;
+  top: 22px;
+  left: 36px;
+  text-shadow: 0px 2px 0px #000000;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: -0.32px;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.about-me .text-wrapper {
+  position: absolute;
+  height: 26px;
+  top: 24px;
+  left: 915px;
+  font-family: "IBM Plex Sans", Helvetica;
+  font-weight: 500;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.about-me .text-wrapper-2 {
+  position: absolute;
+  height: 26px;
+  top: 24px;
+  left: 1011px;
+  font-family: "IBM Plex Sans", Helvetica;
+  font-weight: 500;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.about-me .text-wrapper-3 {
+  position: absolute;
+  height: 26px;
+  top: 24px;
+  left: 1139px;
+  font-family: "IBM Plex Sans", Helvetica;
+  font-weight: 500;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.about-me .dark-mode-button {
+  position: absolute;
+  width: 144px;
+  height: 45px;
+  top: 16px;
+  left: 1271px;
+  background-color: #426b1f;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.about-me .text-wrapper-4 {
+  position: absolute;
+  width: 121px;
+  height: 21px;
+  top: 12px;
+  left: 12px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20.8px;
+}
+
+.about-me .text-wrapper-5 {
+  position: absolute;
+  width: 1190px;
+  height: 83px;
+  top: 185px;
+  left: 140px;
+  font-family: "Ubuntu", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 70px;
+  text-align: center;
+  letter-spacing: -1.4px;
+  line-height: 84px;
+  white-space: nowrap;
+}
+
+.about-me .text-wrapper-6 {
+  position: absolute;
+  width: 1020px;
+  height: 84px;
+  top: 419px;
+  left: 67px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 70px;
+  letter-spacing: -1.4px;
+  line-height: 84px;
+}
+
+.about-me .card-img-overlay {
+  display: inline-flex;
+  flex-direction: column;
+  height: 300px;
+  align-items: flex-start;
+  position: absolute;
+  top: 632px;
+  left: 121px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.about-me .overlay {
+  position: relative;
+  flex: 1;
+  width: 353px;
+  flex-grow: 1;
+  background-image: url(./img/rectangle-333-8.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.about-me .overlay-content {
+  display: inline-flex;
+  flex-direction: column;
+  height: 250px;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  top: 32px;
+  left: 22px;
+}
+
+.about-me .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: var(--defaultwhite);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me .this-is-a-wider-card {
+  position: relative;
+  width: 310px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: var(--defaultwhite);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.about-me .p {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: var(--defaultwhite);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me .div-wrapper {
+  display: inline-flex;
+  height: 38px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 2px 16px;
+  position: relative;
+  background-color: #426b1f;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.about-me .text-wrapper-8 {
+  position: relative;
+  width: 135px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20.8px;
+}
+
+.about-me .cardimgoverlay {
+  top: 632px;
+  left: 543px;
+  display: inline-flex;
+  flex-direction: column;
+  height: 300px;
+  align-items: flex-start;
+  position: absolute;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.about-me .overlay-content-2 {
+  display: flex;
+  flex-direction: column;
+  width: 303px;
+  height: 228px;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  top: 54px;
+  left: 22px;
+}
+
+.about-me .text-wrapper-9 {
+  position: relative;
+  width: 241px;
+  height: 75px;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: var(--defaultwhite);
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me .overlay-wrapper {
+  top: 635px;
+  left: 965px;
+  display: inline-flex;
+  flex-direction: column;
+  height: 300px;
+  align-items: flex-start;
+  position: absolute;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.about-me .card-img-overlay-2 {
+  top: 995px;
+  left: 121px;
+  display: inline-flex;
+  flex-direction: column;
+  height: 300px;
+  align-items: flex-start;
+  position: absolute;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.about-me .cardimgoverlay-2 {
+  top: 995px;
+  left: 543px;
+  display: inline-flex;
+  flex-direction: column;
+  height: 300px;
+  align-items: flex-start;
+  position: absolute;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.about-me .cardimgoverlay-3 {
+  top: 998px;
+  left: 965px;
+  display: inline-flex;
+  flex-direction: column;
+  height: 300px;
+  align-items: flex-start;
+  position: absolute;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.about-me .text-wrapper-10 {
+  position: absolute;
+  top: 556px;
+  left: 505px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me .bottom-navi {
+  position: absolute;
+  width: 1440px;
+  height: 310px;
+  top: 1476px;
+  left: 0;
+  background-color: #585563;
+}
+
+.about-me .overlap-group {
+  width: 398px;
+  height: 310px;
+  left: 1032px;
+  position: absolute;
+  top: 0;
+}
+
+.about-me .element-first-name {
+  position: absolute;
+  width: 373px;
+  height: 310px;
+  top: 0;
+  left: 0;
+  mix-blend-mode: soft-light;
+  object-fit: cover;
+}
+
+.about-me .text-wrapper-11 {
+  position: absolute;
+  top: 275px;
+  left: 53px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  line-height: 25.4px;
+  white-space: nowrap;
+}
+
+.about-me .img {
+  width: 654px;
+  height: 30px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.about-me .home-projects {
+  position: absolute;
+  top: 64px;
+  left: 99px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0.32px;
+  line-height: 40.6px;
+}
+
+.about-me .group {
+  position: absolute;
+  width: 320px;
+  height: 134px;
+  top: 77px;
+  left: 576px;
+}
+
+.about-me .github-logo {
+  position: absolute;
+  width: 91px;
+  height: 91px;
+  top: 0;
+  left: 113px;
+  mix-blend-mode: screen;
+  object-fit: cover;
+}
+
+.about-me .this-website-is {
+  position: absolute;
+  top: 98px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  line-height: 25.4px;
+}
+
+.about-me .span {
+  font-style: italic;
+}
+
+.about-me .text-wrapper-12 {
+  font-style: italic;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  line-height: 12.7px;
+}
+
+.about-me .text-wrapper-13 {
+  font-style: italic;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  line-height: 12.7px;
+  text-decoration: underline;
+}
 
